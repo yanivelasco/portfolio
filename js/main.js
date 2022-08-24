@@ -68,7 +68,7 @@ const prevModal = document.querySelector(".prev-button");
 
 
 openModal2.addEventListener("click", () => {
-    modalmicro.style.display = "flex";
+    modalmicro.style.display = "grid";
     modalmicro.showModal();
 });
 
@@ -141,7 +141,7 @@ const prevModal5 = document.querySelector(".prev-button5");
 
 
 openModal5.addEventListener("click", () => {
-    modalmusk.style.display = "flex";
+    modalmusk.style.display = "grid";
     modalmusk.showModal();
 });
 
