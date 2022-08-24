@@ -307,8 +307,7 @@ button:hover{
 .close-button18,
 .close-button19 {
     align-self: flex-start;
-    width: 8%;
-    margin-bottom: 2em
+    width: 5%;
 }
 
 .next-button,
@@ -331,7 +330,7 @@ button:hover{
 .next-button18,
 .next-button19 {
 
-    width: 5%;
+    width: 3%;
     position: absolute;
     bottom: 5%;
     right: 7%;
@@ -355,7 +354,7 @@ button:hover{
 .prev-button17,
 .prev-button18,
 .prev-button19 {
-    width: 5%;
+    width: 3%;
     transform: rotate(180deg);
     position: absolute;
     bottom: 5.25%;
@@ -365,15 +364,14 @@ button:hover{
 
 
 .modal {
-    padding: 2em;
+    align-items: center;
     border: 0;
     box-shadow: 0 0 1em rgb(0 0 0 / .3);
-    max-width: 50ch;
+    max-width: 70vw;
+    max-height: 70vh;
     background-color: #2D283E;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     display: none;   
 }
 
@@ -382,17 +380,19 @@ button:hover{
 .modal > h1{
     color: #4C495D;
     text-align: center;
-    margin-bottom: 1em;
-    font-size: 2.5em;
+    font-size: 1.6em;
 }
 
 .modal > p{
     color: #D1D7E0;
     font-family: Ubuntu;
-    max-width: 60ch;
+    max-width: 35vw;
     line-height: 1.3em;
     word-spacing: .20em;
     margin:.5em;
+    font-size: .8em;
+    align-self:flex-start;
+
     
 }
 
@@ -406,8 +406,9 @@ button:hover{
 }
 
 .modal > img{
-    width: 50%;
+    width: 40%;
     margin-block: 3em;
+    align-self:flex-end;
 }
 
 .modal::-webkit-scrollbar{
@@ -501,7 +502,7 @@ footer{
     .gmail{
         width: 10%;
     }
-
+/* 
     .modal > h1{
         font-size: 2em;
     }
@@ -517,7 +518,7 @@ footer{
     .modal > h2{
         font-size: .8em;
         line-height: 1.8em;
-    }
+    } */
     
 }
 
@@ -605,7 +606,7 @@ footer{
     }
     .introtext{
         width: 25%;
-        padding-top: 5%;
+        padding-top: 3%;
     }
 
     .abouttext{
@@ -613,11 +614,11 @@ footer{
     }
 
     body{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .firstarrow{
-        padding-top: 3%;
+        padding-top: 5%;
     }
 
     h5{
@@ -628,7 +629,7 @@ footer{
         width: 5%;
     }
 
-    .modal > h1{
+    /* .modal > h1{
         color: #4C495D;
         text-align: center;
         margin-bottom: 1em;
@@ -650,7 +651,7 @@ footer{
     .modal > img{
         width: 35%;
         margin-block: 3em;
-    }
+    } */
 
 
 }
